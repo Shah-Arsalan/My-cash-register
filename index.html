@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Cash Register</title>
+  
 </head>
 <body>
     <div class="container"><h1 class="heading">Cash Register Manager</h1>
@@ -16,12 +17,19 @@
         <input type="text" id="bill-amount">
         <label for="cash-given">Cash given</label>
         <input type="text" id="cash-given">
-        <button>Find my Change</button>
+        <button id="click">Find my Change</button>
         <table class="update-change">
+            <p id="error-message"></p>
+            
             <caption>Change to be given:</caption>
             <tr>
                 <th>No of notes</th>
-                <td></td>
+                <td class="number-of-notes"></td>
+                <td class="number-of-notes"></td>
+                <td class="number-of-notes"></td>
+                <td class="number-of-notes"></td>
+                <td class="number-of-notes"></td>
+                <td class="number-of-notes"></td>
             </tr>
             <tr>
                 <th>Note</th>
@@ -35,6 +43,6 @@
             </tr>
         </table></div>
     
-    <h1></h1>
+        <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
