@@ -1,49 +1,36 @@
-.container{
+
+   .container{
+    margin: auto;
     display: flex;
     flex-direction:column;
     width: 50vw;
-    margin: auto;
-    margin-left: 30rem;
-    
+   
     
 }
 
 body{
-    
-    background-color:rgb(24, 75, 78);
+    background-color:darkseagreen;
 }
 
 #bill-amount{
-    background-color: wheat;
-   padding-top: 1rem;
-   padding-bottom:1rem;
-   border:solid;
-   border-radius: 1rem;
-   max-width: 60%;
+    max-width: 60%;
+    padding: 1rem;
+    border: solid;
+    border-radius: 1rem;
 }
 
 #cash-given{
-    
-    background-color: wheat;
-   padding-top: 1rem;
-   padding-bottom:1rem;
-   border:solid;
-   border-radius: 1rem;
-   max-width: 60%;
+    max-width: 60%;
+    padding: 1rem;
+    border: solid;
+    border-radius: 1rem;
+
 }
 
 #click{
-    margin-top: 3rem;
-    max-width: 30%;
-    margin-left: 6rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: wheat;
+    max-width: 40%;
+    padding: 1rem;
+    margin-top: 2rem;
     border: solid;
     border-radius: 1rem;
-   
-}
-
-.update-change{
-    margin-right: 400px;;
 }
