@@ -2,5 +2,48 @@
     display: flex;
     flex-direction:column;
     width: 50vw;
+    margin: auto;
+    margin-left: 30rem;
     
+    
+}
+
+body{
+    
+    background-color:rgb(24, 75, 78);
+}
+
+#bill-amount{
+    background-color: wheat;
+   padding-top: 1rem;
+   padding-bottom:1rem;
+   border:solid;
+   border-radius: 1rem;
+   max-width: 60%;
+}
+
+#cash-given{
+    
+    background-color: wheat;
+   padding-top: 1rem;
+   padding-bottom:1rem;
+   border:solid;
+   border-radius: 1rem;
+   max-width: 60%;
+}
+
+#click{
+    margin-top: 3rem;
+    max-width: 30%;
+    margin-left: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: wheat;
+    border: solid;
+    border-radius: 1rem;
+   
+}
+
+.update-change{
+    margin-right: 400px;;
 }
