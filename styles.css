@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color:darkseagreen;
+    background-color:#5CDB95;
 }
 
 #bill-amount{
@@ -30,7 +30,29 @@ body{
 #click{
     max-width: 40%;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: .5rem;
     border: solid;
     border-radius: 1rem;
+}
+
+#click2{
+
+    max-width: 40%;
+    padding: 1rem;
+    border: solid;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    
+}
+
+.update-change{
+  margin-top: 2rem;
+}
+
+.note{
+    background-color: white;
+}
+
+.number-of-notes{
+    background-color: white;
 }
